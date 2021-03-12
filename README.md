@@ -1,4 +1,4 @@
-# Cybershoes Quest SDK Developer Handbook for Unity
+# Cybershoes Quest SDK Developer Handbook for Unity using XR plugin
 *Tested in Unity 2020.1.6f1*  
 If your game is using the Oculus Utilities Plugin check out the example project at: https://github.com/CybershoesVR/Quest_SDK_Unity_Example
 
