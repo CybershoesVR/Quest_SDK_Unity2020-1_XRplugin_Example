@@ -142,7 +142,7 @@ public class CybershoesManager : MonoBehaviour
         }
         else 
         {
-            Debug.Log("No hmd found");
+            Debug.Log("No hmd found!");
             return Vector3.zero;
         }
     }   
