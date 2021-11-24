@@ -17,5 +17,6 @@ Done
 
 Extra Option: The Path "Gamepad" > LeftStickPress yields a single event when the Cybershoes are moved very fast. This can be used to trigger a Sprint Mode - comparable to how you'd use the Oculus Touch Joystick Button Press to start Sprint Mode. Cybershoes end the SprintMode when their speed drops below 0.5. Therefore your gamelogic should end SprintMode when Cybershoes Speed drops below 0.5.
 
-CybershoesManager.cs is not neded. To Do: fix this line cybershoesScaler = GetComponent<CybershoesHeightScaler>(); 
+CybershoesManager.cs is not neded. To Do: fix this line  
+`cybershoesScaler = GetComponent<CybershoesHeightScaler>();`
 
