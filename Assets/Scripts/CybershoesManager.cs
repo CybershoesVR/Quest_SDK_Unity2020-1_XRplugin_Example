@@ -22,7 +22,7 @@ public class CybershoesManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        xrCamera = GameObject.Find("XRRig");
+        xrCamera = GameObject.Find("XR Rig");
         xrCamera.GetComponent<UnityEditor.XR.LegacyInputHelpers.CameraOffset>()
         .requestedTrackingMode = UnityEditor.XR.LegacyInputHelpers.UserRequestedTrackingMode.Floor; // Set tracking mode to assume that physical ground is at virtual y = 0.
         centerEyeDevice = InputDevices.GetDeviceAtXRNode(XRNode.CenterEye);

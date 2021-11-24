@@ -19,7 +19,7 @@ public class StaticHeightScaling : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        xrCamera = GameObject.Find("XRRig");
+        xrCamera = GameObject.Find("XR Rig");
         centerEyeDevice = InputDevices.GetDeviceAtXRNode(XRNode.CenterEye);
     }
 
